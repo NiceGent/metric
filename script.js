@@ -3,7 +3,7 @@ let userInput = document.getElementById("user-input");
 let convertBtn = document.getElementById("convert-btn");
 let lengthOutput = document.getElementById("length-output");
 let volOutput = document.getElementById("volume-output");
-let massOutput = document.getElementById("volume-output");
+let massOutput = document.getElementById("mass-output");
 
 
 convertBtn.addEventListener("click", function() {
