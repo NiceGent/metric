@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metric / Imperial Converstion</title>
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <div class="conversion-chart">
+            <header>
+                <h1>metric / imperial system conversion</h1>
+                <input id="user-input" type=text" pattern="\d*" maxlength="2">
+                <button id="convert-btn" class="convert-btn">Convert</button>
+            </header>
+
+            <main>
+                <section class="section length-conversion">
+                    <h2>Length (Meter/Feet)</h2>
+                    <p id="length-output">20 meters = 65.15 feet | 20 feet = 6.096 meters </p>
+                </section>
+
+                <section class="section volume-conversion">
+                    <h2>Volume (Litres/Gallons)</h2>
+                    <p id="volume-output">20 liters = 65.15 gallons | 20 gallons = 6.096 liters </p>
+                </section>
+
+                <section class="section mass-conversion">
+                    <h2>Mass (Kilograms/Pounts)</h2>
+                    <p id="mass-output">20 meters = 65.15 feet | 20 feet = 6.096 meters </p>
+                </section>
+            </main>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
